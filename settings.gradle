@@ -1,0 +1,2 @@
+include ':app', ':mountEverest'
+rootProject.name='Virtual Instructor(beta)'

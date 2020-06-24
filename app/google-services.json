@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "332267408359",
+    "firebase_url": "https://virtual-instructor.firebaseio.com",
+    "project_id": "virtual-instructor",
+    "storage_bucket": "virtual-instructor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332267408359:android:1cb4a0b92b0922cc0d0b42",
+        "android_client_info": {
+          "package_name": "com.example.virtualinstructorbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332267408359-1ee8jcnmhrru02eb0j4e9ora5j9h7a78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virtualinstructorbeta",
+            "certificate_hash": "98f00629f0a6ec62c5393037ee63ef340474fd25"
+          }
+        },
+        {
+          "client_id": "332267408359-766fbjunpmb1m091gqtruj0mgrciv0np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQjdIFuE1pZ55VptnowKO_KlRGU2yoZGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332267408359-766fbjunpmb1m091gqtruj0mgrciv0np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

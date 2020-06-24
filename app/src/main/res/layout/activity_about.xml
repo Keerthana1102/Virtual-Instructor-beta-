@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@drawable/backgroung">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="center"
+            android:text="Tension is who you think you should be. Relaxation is who you are"
+            android:textColor="#01082B"
+            android:textSize="21sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+        android:layout_below="@id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#06114B"
+        android:id="@+id/body"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:text="Eventually, we have forgotten the habbit of meditation in open spaces thanks to scarcity of gardens and parks. Virtual Reality is a solution to this problem. One can meditate using our Virtual Instructor App while living in his homes instead of stepping out. Our product offers a virtual instructor who teaches meditation and one can practice it virtually while being inside homes. Currently, we have launched the test version of the app, which contains 3-d environments without any instructor, but you can still enjoy meditation in VR"
+        android:textSize="20sp"/>
+
+        <TextView
+            android:layout_below="@id/body"
+            android:id="@+id/foot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#06114B"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="15sp"
+            android:text="As this is the test version of the app. So, we have provided three different 3-d environments to practice meditation in virtual reality. Try them and let us know how you feel. We'll be adding more environments in further updates"           android:textSize="20sp"/>
+
+        <TextView
+            android:layout_below="@id/foot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E4171D"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="20sp"
+            android:text="NOTE:- Must read the meditation guidelines under help section before trying.  "
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+

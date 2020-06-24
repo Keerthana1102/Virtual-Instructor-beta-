@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroung">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/head1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. How to use the app:-"
+            android:textSize="22sp"
+            android:textColor="#030B36"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:id="@+id/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head1"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="10sp"
+            android:text="i) Choose the type of Meditation."
+            android:textColor="#06114B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/body2"
+            android:layout_below="@id/body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ii) Select the environment in which you want to meditate."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/body3"
+            android:layout_below="@id/body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iii) Place the phone in VR box."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"/>
+
+        <TextView
+            android:id="@+id/body4"
+            android:layout_below="@id/body3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iv) Enjoy the meditation."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"/>
+
+
+        <TextView
+            android:id="@+id/head3"
+            android:layout_below="@id/body4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Meditation guidelines:-"
+            android:textSize="22sp"
+            android:textColor="#030B36"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/body5"
+            android:layout_below="@id/head3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="i) Start in small intervals and increase duration accordingly."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"/>
+
+        <TextView
+            android:id="@+id/body6"
+            android:layout_below="@id/body5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ii) Feel the environment around you."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"/>
+
+        <TextView
+            android:id="@+id/body7"
+            android:layout_below="@id/body6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iii) Try to focus on your breathe and your body."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/body8"
+            android:layout_below="@id/body7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iv) Don't worry if you looses your focus, don't force your body for this."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/body9"
+            android:layout_below="@id/body8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v) Develop a loving attitude. Observe your thought process , observe the real you."
+            android:textSize="18sp"
+            android:textColor="#06114B"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/head2"
+            android:layout_below="@id/body9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOTE:- For better experience, we suggest using a proper windowed room or open terrace with no or less noise during meditation."
+            android:textSize="20sp"
+            android:textColor="#CC1010"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -49,7 +49,7 @@ dependencies {
     implementation(name: 'gvr', ext: 'aar')
     implementation(name: 'unitygvr', ext: 'aar')
 
-    implementation project (":mountEverest")
+    implementation project(":mountEverest")
 
 
 }

@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon,android:theme">
-        <activity android:name=".unityHolder2"></activity>
+        <activity android:name=".Videos.video1_m"></activity>
+        <activity android:name=".unityHolder2" />
         <activity android:name=".unityHolder1" />
         <activity
             android:name=".About"

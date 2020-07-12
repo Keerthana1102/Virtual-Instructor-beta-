@@ -9,11 +9,33 @@
         android:id="@+id/coming"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coming soon "
-        android:textColor="#F70303"
+        android:text="Let's get Started!"
+        android:textColor="#fff"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150sp"
+        android:layout_marginTop="20sp"
         android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/coming1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The sooner The better!!"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coming1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="#44BD56"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="start" />
 
     <TextView
         android:layout_width="match_parent"

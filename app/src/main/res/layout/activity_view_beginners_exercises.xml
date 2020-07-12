@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E9EE"
+    tools:context=".ListExerciesBeginners">
+
+    <TextView
+        android:id="@+id/title_k"
+        android:text="Name of Exercise"
+        android:textSize="24sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#B15AD6"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/tadasana" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/countdown_button"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:text="START"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ED4AB6"
+        app:buttonColor="#ED4AB6" />
+
+    <TextView
+        android:id="@+id/countdown_text"
+        android:text="00:20"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#09BFF7"
+        android:layout_above="@+id/countdown_button"
+        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

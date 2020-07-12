@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.virtualinstructorbeta">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,8 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon,android:theme">
-        <activity android:name=".Videos.video1_m"
-                  android:screenOrientation="landscape"></activity>
+        <activity android:name=".ViewBeginnersExercises"
+            android:parentActivityName=".ListExerciesBeginners"
+            android:label="details"/>
+        <activity android:name=".ListExerciesBeginners" />
+        <activity android:name=".yogaExercisesActivity" />
+        <activity
+            android:name=".Videos.video1_m"
+            android:screenOrientation="landscape" />
         <activity android:name=".unityHolder2" />
         <activity android:name=".unityHolder1" />
         <activity

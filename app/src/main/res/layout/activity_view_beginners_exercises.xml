@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2E9EE"
+    android:background= "@drawable/backgroung"
     tools:context=".ListExerciesBeginners">
 
     <TextView
@@ -14,15 +14,20 @@
         android:textSize="24sp"
         android:gravity="center_vertical|center_horizontal"
         android:background="#B15AD6"
+        android:layout_centerHorizontal="true"
         android:textColor="#fff"
-        android:layout_width="match_parent"
+        android:layout_marginTop="5sp"
+        android:padding="10sp"
+        android:layout_below="@id/mainImageView"
+        android:layout_width="wrap_content"
         android:layout_height="50dp" />
 
     <ImageView
         android:id="@+id/mainImageView"
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="300sp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
         android:src="@drawable/tadasana" />
 
     <info.hoang8f.widget.FButton

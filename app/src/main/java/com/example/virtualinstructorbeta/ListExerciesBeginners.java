@@ -42,6 +42,8 @@ public class ListExerciesBeginners extends AppCompatActivity {
         recyclerView1.setAdapter(myAdapter);
         recyclerView1.setLayoutManager(new LinearLayoutManager(this));
 
+        getSupportActionBar().hide();
+
 
 
 //        initData();

@@ -43,6 +43,8 @@ public class ViewBeginnersExercises extends AppCompatActivity {
         mainImageView = findViewById(R.id.mainImageView);
         title = findViewById(R.id.title_k);
 
+        getSupportActionBar().hide();
+
         getData();
         setData();
 

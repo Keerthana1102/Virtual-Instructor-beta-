@@ -2,25 +2,31 @@ package com.example.virtualinstructorbeta.Videos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.StatusBarManager;
+import android.app.ProgressDialog;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import android.view.View;
 import android.view.WindowManager;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.example.virtualinstructorbeta.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 public class video1_m extends AppCompatActivity {
 
     private VideoView videoView;
     private MediaController mediaController;
     private String TAG;
+    private ProgressDialog pd;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +35,28 @@ public class video1_m extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
+        pd = new ProgressDialog(this);
+        pd.setMessage("Loading video please wait...");
+        pd.show();
+
         videoView = (VideoView) findViewById(R.id.video1);
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        Uri uri = Uri.parse("https://firebasestorage.googleapis.com/v0/b/virtual-instructor.appspot.com/o/greenish_blue_butterfly_butterfly_523.mp4?alt=media&token=7e07a46b-41fe-45e9-bb9a-dfff808df3a0");
+        Uri uri = Uri.parse("https://firebasestorage.googleapis.com/v0/b/virtual-instructor.appspot.com/o/Trikonasana%5B1%5D.mp4?alt=media&token=bf93d9cf-0772-437c-854a-6e5b0fe2cda3");
 
 
         if(mediaController == null){
             mediaController = new MediaController(this);
             mediaController.setAnchorView(videoView);
         }
+
+        DisplayMetrics metrics = new DisplayMetrics(); getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        android.widget.RelativeLayout.LayoutParams params = (android.widget.RelativeLayout.LayoutParams) videoView.getLayoutParams();
+        params.width =  metrics.widthPixels;
+        params.height = metrics.heightPixels;
+        params.leftMargin = 0;
+        videoView.setLayoutParams(params);
 
         videoView.setMediaController(mediaController);
         videoView.setVideoURI(uri);
@@ -59,6 +76,13 @@ public class video1_m extends AppCompatActivity {
                 Toast.makeText(video1_m.this, "Some error occurred", Toast.LENGTH_SHORT).show();
                 Log.d(TAG,"not working");
                 return false;
+            }
+        });
+
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                pd.hide();
             }
         });
 

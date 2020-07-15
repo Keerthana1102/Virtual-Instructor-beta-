@@ -1,350 +1,343 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<!--
-    <ImageView
-        android:id="@+id/instructor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitStart"
-        android:src="@drawable/instructor"
-        android:layout_marginRight="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="60sp"
-        android:elevation="-4dp"/>
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Coming soon"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20sp"
-        android:textColor="#FC0303"/>
-
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30sp"
-        android:textSize="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:textColor="#000000"
-        android:text="It is always recommended to have an instructor while doing yoga. They not only provide you better experience but also informs you about the benefits and side effects of them." />
--->
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/topic1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20sp"
-        android:text="Meditation"
-        android:textSize="25sp"
-        android:layout_marginLeft="20sp"/>
+        <TextView
+            android:id="@+id/topic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20sp"
+            android:text="Meditation"
+            android:textSize="25sp"
+            android:layout_marginStart="20sp"/>
 
-    <HorizontalScrollView
-        android:id="@+id/video_grp1"
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/topic1">
-
-        <GridLayout
+        <HorizontalScrollView
+            android:id="@+id/video_grp1"
+            android:layout_marginTop="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:rowCount="1"
-            android:alignmentMode="alignMargins"
-            android:columnOrderPreserved="false">
+            android:layout_below="@id/topic1">
 
-
-            <androidx.cardview.widget.CardView
+            <GridLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp"
-                android:id="@+id/video1_m">
+                android:rowCount="1"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/mountains"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    android:id="@+id/video1_m">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Mount Everest"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/mountains"
+                            android:layout_gravity="center"/>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Mount Everest"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
+                </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/mountains"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Mount Everest"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/mountains"
+                            android:layout_gravity="center"/>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Mount Everest"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
+                </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/mountains"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Mount Everest"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/mountains"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Mount Everest"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
 
 
 
 
 
-        </GridLayout>
+            </GridLayout>
 
-    </HorizontalScrollView>
+        </HorizontalScrollView>
 
-    <TextView
-        android:id="@+id/topic2"
-        android:layout_below="@id/video_grp1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20sp"
-        android:text="Yoga"
-        android:textSize="25sp"
-        android:layout_marginLeft="20sp"/>
+        <TextView
+            android:id="@+id/topic2"
+            android:layout_below="@id/video_grp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20sp"
+            android:text="Yoga"
+            android:textSize="25sp"
+            android:layout_marginStart="20sp"/>
 
-    <HorizontalScrollView
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginRight="20sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/topic2">
-
-        <GridLayout
+        <HorizontalScrollView
+            android:id="@+id/video_grp2"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:rowCount="1"
-            android:alignmentMode="alignMargins"
-            android:columnOrderPreserved="false">
+            android:layout_below="@id/topic2">
 
-
-            <androidx.cardview.widget.CardView
+            <GridLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:rowCount="1"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/triangle"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    android:id="@+id/trikonasana"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Trikonasana"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/triangle"
+                            android:layout_gravity="center"/>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Trikonasana"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
+                </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/tree_pose"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Vrikshasana"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/tree_pose"
+                            android:layout_gravity="center"/>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Vrikshasana"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
+                </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/chair_pose"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Kursiasana"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/chair_pose"
+                            android:layout_gravity="center"/>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Kursiasana"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:padding="15dp"
-                    android:orientation="vertical">
+                </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/excercise"
-                        android:layout_gravity="center"/>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Adho Mukho Svanasana"
                         android:layout_gravity="center"
-                        android:textColor="#000000"
-                        android:textSize="18sp"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
+                        android:padding="15dp"
+                        android:orientation="vertical">
 
-            </androidx.cardview.widget.CardView>
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/excercise"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Adho Mukho Svanasana"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:layout_marginTop="12dp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
 
 
 
 
 
-        </GridLayout>
+            </GridLayout>
 
-    </HorizontalScrollView>
+        </HorizontalScrollView>
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/instructor_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_below="@id/video_grp2"
+            android:layout_marginTop="20sp"
+            android:layout_centerHorizontal="true"
+            android:text="Know our instructor"
+            android:textSize="20sp"
+            android:padding="10sp"
+            android:textColor="#fff"
+            android:background="@drawable/border"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

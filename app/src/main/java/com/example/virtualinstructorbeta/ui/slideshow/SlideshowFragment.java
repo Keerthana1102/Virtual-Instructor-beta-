@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.example.virtualinstructorbeta.ListExerciesBeginners;
 import com.example.virtualinstructorbeta.R;
 import com.example.virtualinstructorbeta.yogaExercisesActivity;
 
@@ -31,7 +32,7 @@ public class SlideshowFragment extends Fragment {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), yogaExercisesActivity.class);
+                Intent intent = new Intent(getActivity(), ListExerciesBeginners.class);
                 startActivity(intent);
             }
         });

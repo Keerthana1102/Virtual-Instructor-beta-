@@ -13,12 +13,12 @@
     <string name="menu_tools">Instructor</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Help</string>
-    
-    
+
+
     <string-array name="beginners_exercies">
         <item>Tadasana</item>
         <item>Vrikshana</item>
-        <item>AdhoMukhoSvanasana</item>
+        <item>Adho Mukho Svanasana</item>
         <item>Trikonasana</item>
         <item>Kursiasana</item>
         <item>Naukasana</item>
@@ -26,6 +26,6 @@
         <item>Paschimottanasana</item>
         <item>Balasana</item>
     </string-array>
-    
-    
+
+
 </resources>

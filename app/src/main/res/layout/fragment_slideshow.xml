@@ -30,7 +30,7 @@
         android:layout_below="@id/coming1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="33dp"
-        android:background="#43A047"
+        android:background="@drawable/button_border"
         android:textSize="20sp"
         android:textColor="#ffff"
         android:text="start" />

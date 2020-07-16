@@ -12,20 +12,20 @@
         android:id="@+id/title_k"
         android:text="Name of Exercise"
         android:textSize="24sp"
-        android:gravity="center_vertical|center_horizontal"
-        android:background="#B15AD6"
+        android:background="@drawable/border_text"
         android:layout_centerHorizontal="true"
         android:textColor="#fff"
         android:layout_marginTop="5sp"
         android:padding="10sp"
         android:layout_below="@id/mainImageView"
         android:layout_width="wrap_content"
-        android:layout_height="50dp" />
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/mainImageView"
         android:layout_width="300sp"
         android:layout_height="300dp"
+        android:layout_marginTop="10sp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:src="@drawable/tadasana" />

@@ -26,6 +26,42 @@
         <item>Paschimottanasana</item>
         <item>Balasana</item>
     </string-array>
+
+    <string-array name="description">
+        <item>Stand with your feet slightly apart and your hands alongside your body. Inhale deeply and now slowly raise your arms upwards, interlock your fingers. Raise your heels and stand on your toes. Look up, you should feel your body stretching. Place your body weight on your toes and stretch out your shoulder arms, arms and chest up. Hold this pose for few moments. Exhale and return to the starting position</item>
+        <item>Stand erect with your feet together. Fold the right leg and place it on your left thigh such that the right leg is perpendicular to the left leg. Extend your arms above your head and try to make Namaskar mudra with your palms and inhale. Balance the pose as long as you can. Try to make your spine straight and feel the stretching from toes to fingers. With deep exhale bring your arms and leg down. Repeat the same with the other leg and this completes one round.</item>
+        <item>Stand on your four limbs, such that your body forms a table like structure. Exhale and gently lift the hips and straighten your elbows and knees, ensuring the formation of an inverted 'V'. your hands should be inline with your shoulders, and your feet inline with your hips. Make sure your toes point outwards. Press your hands into the ground and now lengthen your neck such that your ears touch your inner arms. Hold for a few seconds, bend your knees and return to table position.</item>
+        <item>Stand erect and keep the distance between the your feet about 3 to 4 feet. Turn your right foot by 90 degrees and left foot by 15 degrees. Ensure your body weight is equally balanced on both feet. Inhale deeply and as you exhale, bend your body towards right, keeping the waist straight, allowing your left hand to touch the ground and the right hand in the air such that they are in a straight line. Keep your head in neutral position or turn to left. Ensure your body is bent sideways and not forward or backward. As you inhale, come up, bring your arms down to your sides and straighten your feet. Repeat the same on other side.</item>
+        <item>Stand on floor with erect spine. Stretch hands to the front, be sure that the elbow joint is not bending. Bend knee forward as if sitting on an imaginary chair. Thighs should be nearly parallel to the floor and torso perpendicular to the tops of the thigh. Hold the position for 20secs as per capacity. While inhalation straightens the knees. Exhale and release arms beside the body and come to normal position.</item>
+        <item>First lie down flat onn your yoga mat, with your feet together and your arms on the sides. Keep your arms straight and your fingers outstretched towards your toes. Start inhaling and as you exhale, lift your chest and feet off the ground, stretching your arms towards your feet. Let the weight of your body rest entirely on the buttocks. Make sure your eyes, finger and toes are all in one line. Hold your breath and remain in this position for a few seconds. Now exhale slowly as you bring the body down to the starting position and relax.</item>
+        <item>Start by lying on yur stomach and rest your forehead on floor. Keep your feet together and toes touching the ground. Place hands at shoulder level and palms on the floor. As you inhale lift your head, chest and abdomen and make sure that you keep the navel on the floor. Hold this posture for 5 breaths or your capacity. As you exhale, slowly come down rest with your hands below your head.</item>
+        <item>Start by sitting on the ground, stretching both the legs outward. Toes should remain together pointing forward. Now, Inhale, raise your arms and bend the body forward exhaling as far as possible. While bending forward, do exhaling. In the final stage, interlocked fingers should be beyond the toes and nose should touch the knees. Initially, do it for 5 seconds and gradually try to maintain the pose as long as you feel comfortable. Inhale and come to the original position. This is one round.</item>
+        <item>Starting by kneeling down on the ground and  sit on your buttocks. Keep your big toes touching each other. Place your knees hip-width apart and inhale. Now bend forward and exhale as you lay your torso between your thighs and swing your hands forward. Hold this position for 2 to 3 minutes. At last, breathe-in slowly and return to the starting position.</item>
+    </string-array>
+
+    <string-array name="benefits">
+        <item>It is best to increase height and for weight loss!. Improves body posture, strengthens the knees, thighs and ankles. Reduces sciatica and back pain. Regulates digestive, nervous and respiratory systems. </item>
+        <item>It is good for those suffering with depression, anxiety. It increases your stamina, concentration and immunity. It calms and relaxes CNS. It strengthens calves, thighs, ligaments and tendons of the feet.</item>
+        <item>This asana strengthens abdominal muscles. Improves circulation, digestion. Decreases anxiety, tones the hands and feet, stretches your back.</item>
+        <item>This asana strengthens legs, knees, ankles, arms and chest. Helps improve digestion. Reduces anxiety, stress, back pain and sciatica</item>
+        <item>This asana improves confidence, sense of balance and focus. Improves function of respiratory, digestive and circulatory systems. Stimulates the abdominal organs, diaphragm and heart.</item>
+        <item>It strengthens abdominal muscles, muscles of arms, thighs and shoulders. It helps in regulating blood flow at sugar level. Most importantly it acts as a distress tool, keeping your mind free and peaceful.</item>
+        <item>It stimulates the digestives system and relieves constipation. It improves blood circulation. It energizes the heart. It decreases menstrual irregularities in women. It strengthens muscles of chest, shoulders, arms and abdomen. It relieves sciatica and asthma</item>
+        <item>This is one of the effective sitting forward bending yoga poses that is good to burn belly fat. Paschimottanasana is well known for its utility in harmonizing nervous and pranic energies within the body. Thus, it is quite effective for stress, anxiety, depression and helping to bring about states of meditation. The asana helps to develop appetite.</item>
+        <item>This asana promotes blood circulation in the body, relaxes the abdomen and chest, cures back pain, Reduces stress and anxiety, improves your respiratory system and helps you breathe deeply.</item>
+    </string-array>
+
+    <string-array name="precautions">
+        <item>If you suffer from insomnia, if you have regular migraines or headaches, suffering from low bp or joint pain, avoid doing this asana.</item>
+        <item>People suffering with high/low bp, migraine, insomnia, hip injury, knee or ankle pains.</item>
+        <item>People with high bp, carpal tunnel syndrome, detached retina, dislocated shoulder, weak eye capillaries, diarrhea must avoid doing this asana.</item>
+        <item>Person suffering with migraine, diarrhea, low or high bp or neck and back injuries may avoid doing this asana.</item>
+        <item>If one is suffering with headache, insomnia, high or low bp, shoulder or spine, thigh or hip problems then he/she should avoid this asana.</item>
+        <item>People suffering with hernia, spinal injuries, high bp, severe headache, migraine, asthma, heart patients, diarrhea, insomnia, neck injury and pregnant women should avoid this asana.</item>
+        <item>Don’t keep your body stiff. Pregnant women should not practice it. Keep your buttocks loose as they tend to tighten up naturally during Cobra pose. Consult a yoga specialist if you’re suffering from hernia, peptic ulcer, hyperthyroidism, or intestinal tuberculosis.</item>
+        <item>People suffering with Abdominal ulcer, asthma, diarrhea, back injury, sciatica, slipped disc and pregnant women must avoid doing this asana.</item>
+        <item>Avoid Balasana if you have heavy knee or back pain, low/high bp and suffering with diarrhea. Practice this asana in empty stomach. </item>
+    </string-array>
     
     
 </resources>

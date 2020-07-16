@@ -13,9 +13,9 @@ import android.widget.Toast;
 public class ViewBeginnersExercises extends AppCompatActivity {
 
       ImageView mainImageView;
-      TextView title;
+      TextView title, description, benefits, precautions;
 
-      String data1;
+      String data1, data2, data3, data4;
       int myImage;
 
 //    int image_id;
@@ -42,6 +42,9 @@ public class ViewBeginnersExercises extends AppCompatActivity {
 
         mainImageView = findViewById(R.id.mainImageView);
         title = findViewById(R.id.title_k);
+        description = findViewById(R.id.description);
+        benefits = findViewById(R.id.benefits);
+        precautions = findViewById(R.id.precautions);
 
         getSupportActionBar().hide();
 

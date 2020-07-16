@@ -21,31 +21,70 @@
             android:background="#B15AD6"
             android:layout_gravity="center"
             android:textColor="#fff"
-            android:layout_marginTop="5sp"
+            android:layout_marginTop="20sp"
             android:padding="10sp"
             android:layout_below="@id/mainImageView"
             android:layout_width="wrap_content"
             android:layout_height="50dp" />
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description of the Asana"
+            android:layout_marginTop = "20sp"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
+            android:textColor="#06114B"
+            android:layout_margin="20dp"
             android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benefits"
+            android:layout_marginTop = "20sp"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
 
         <TextView
             android:id="@+id/benefits"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="#06114B"
             android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precautions"
+            android:layout_marginTop = "20sp"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
 
         <TextView
             android:id="@+id/precautions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            android:textColor="#06114B"
             android:layout_gravity="center" />
 
         <ImageView
@@ -53,6 +92,7 @@
             android:layout_width="300sp"
             android:layout_height="300dp"
             android:layout_gravity="center"
+            android:layout_margin="20dp"
             android:src="@drawable/tadasana" />
 
         <info.hoang8f.widget.FButton
@@ -76,7 +116,7 @@
             android:layout_centerHorizontal="true"
             android:textColor="#09BFF7"
             android:layout_above="@+id/countdown_button"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="20dp"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

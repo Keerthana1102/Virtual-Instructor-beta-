@@ -173,6 +173,9 @@ public class ViewBeginnersExercises extends AppCompatActivity {
         if(getIntent().hasExtra("myImage") && getIntent().hasExtra("data1")){
 
             data1 = getIntent().getStringExtra("data1");
+            data2 = getIntent().getStringExtra("data2");
+            data3 = getIntent().getStringExtra("data3");
+            data4 = getIntent().getStringExtra("data4");
             myImage = getIntent().getIntExtra("myImage", 1);
 
 
@@ -184,6 +187,9 @@ public class ViewBeginnersExercises extends AppCompatActivity {
     private void setData(){
 
         title.setText(data1);
+        description.setText(data2);
+        benefits.setText(data3);
+        precautions.setText(data4);
         mainImageView.setImageResource(myImage);
 
     }

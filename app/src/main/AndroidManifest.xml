@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.virtualinstructorbeta">
 
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-3074704562918059~4060348211" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -13,14 +17,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon,android:theme">
-        <activity android:name=".ViewBeginnersExercises"
-            android:parentActivityName=".ListExerciesBeginners"
-            android:label="details"/>
+        <activity android:name=".instructor_info"
+            android:label="Our instructor"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <activity
+            android:name=".ViewBeginnersExercises"
+            android:label="details"
+            android:parentActivityName=".ListExerciesBeginners" />
         <activity android:name=".ListExerciesBeginners" />
         <activity android:name=".yogaExercisesActivity" />
-        <activity
-            android:name=".Videos.video1_m"
-            android:screenOrientation="landscape" />
+        <activity android:name=".Videos.video1_m" />
         <activity android:name=".unityHolder2" />
         <activity android:name=".unityHolder1" />
         <activity

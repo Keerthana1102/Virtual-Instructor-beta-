@@ -18,7 +18,7 @@ public class ListExerciesBeginners extends AppCompatActivity {
     RecyclerView recyclerView1;
 
 
-    String s1[];
+    String s1[], s2[], s3[], s4[];
     int images[] = {R.drawable.tadasana, R.drawable.vrikshasana, R.drawable.adho_mukho_svanasana,
                     R.drawable.trikonasana, R.drawable.kursiasana, R.drawable.naukasana,
                     R.drawable.bhujangasana, R.drawable.paschimottanasana, R.drawable.balasana};
@@ -37,8 +37,11 @@ public class ListExerciesBeginners extends AppCompatActivity {
 
         recyclerView1 = findViewById(R.id.recyclerView1);
         s1 = getResources().getStringArray(R.array.beginners_exercies);
+        s2 = getResources().getStringArray(R.array.description);
+        s3 = getResources().getStringArray(R.array.benefits);
+        s4 = getResources().getStringArray(R.array.precautions);
 
-        MyAdapter myAdapter = new MyAdapter(this, s1, images);
+        MyAdapter myAdapter = new MyAdapter(this, s1, s2, s3, s4,images);
         recyclerView1.setAdapter(myAdapter);
         recyclerView1.setLayoutManager(new LinearLayoutManager(this));
 

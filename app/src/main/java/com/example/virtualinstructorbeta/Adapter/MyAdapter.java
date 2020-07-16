@@ -17,14 +17,17 @@ import com.example.virtualinstructorbeta.ViewBeginnersExercises;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
-    String data1[];
+    String data1[], data2[], data3[], data4[];
     int images[];
     Context context;
 
-    public MyAdapter(Context ct, String s1[], int img[]){
+    public MyAdapter(Context ct, String s1[],String s2[], String s3[], String s4[], int img[]){
 
         context = ct;
         data1 = s1;
+        data2 = s2;
+        data3 = s3;
+        data4 = s4;
         images = img;
 
     }
@@ -50,6 +53,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             public void onClick(View v) {
                 Intent intent = new Intent(context, ViewBeginnersExercises.class);
                 intent.putExtra("data1", data1[position]);
+                intent.putExtra("data2", data2[position]);
+                intent.putExtra("data3", data3[position]);
+                intent.putExtra("data4", data4[position]);
                 intent.putExtra("myImage", images[position]);
                 context.startActivity(intent);
             }
